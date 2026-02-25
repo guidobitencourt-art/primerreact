@@ -1,6 +1,6 @@
 import './perfil.css'
 
-const perfil = () => {
+const Perfil = () => {
 
         const nameUser = 'Guilherme'
         const profession: string = 'Fullstack Developer'
@@ -13,7 +13,8 @@ const perfil = () => {
         <p>Modulos restantes para graduarse: {5 - completedModules}</p>
 
         {isActive ? <span className='tag-state'>En linea</span> : null}
-  ) </div>  
+    </div>
+  )
 }
 
-export default perfil
+export default Perfil

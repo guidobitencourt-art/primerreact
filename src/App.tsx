@@ -1,4 +1,4 @@
-import perfil from './componentes/perfil'
+import Perfil from './componentes/perfil'
 import './App.css'
 
 const App = () => {
@@ -6,8 +6,10 @@ const App = () => {
   return (
     <>
       {/* <HolaMundo /> */}
-      <perfil />
-      
+     
+      <div>
+     <Perfil />
+      </div>
     </>
   )
 }
