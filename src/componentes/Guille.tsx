@@ -10,6 +10,7 @@ const Guille = () => {
         <>
         <div>{nombre}</div>
         <div>{jobs[1]}</div>
+        <img src="https://reactjs.org/logo-og.png" alt="React Logo" />
         </>
       
     
